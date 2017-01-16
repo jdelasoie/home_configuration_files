@@ -1,0 +1,3 @@
+sudo apt-get -t jessie-backports install terminology i3 \
+                keepassx git nemo chromium mysql-workbench \
+                git-annex pidgin meld python-pip remmina
