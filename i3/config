@@ -106,10 +106,10 @@ bindsym $mod+d exec dmenu_run
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-#bindsym $mod+j focus left
-#bindsym $mod+k focus down
-#bindsym $mod+l focus up
-#wbindsym $mod+eacute focus right
+bindsym $mod+KP_4 focus left
+bindsym $mod+KP_2 focus down
+bindsym $mod+KP_8 focus up
+bindsym $mod+KP_6 focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -223,3 +223,4 @@ bar {
         status_command i3status -c /home/del/.config/i3/i3status.conf
 }
 
+#exec --no-startup-id /usr/lib/gnome-settings-daemon/gnome-settings-daemon
