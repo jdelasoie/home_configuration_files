@@ -77,6 +77,7 @@ for_window [class="Pidgin"] floating enable
 # move workspace to monitor
 #bindsym $mod+m move workspace to output left
 
+bindsym $mod+r exec --no-startup-id ~/.config/i3/i3_road.sh
 bindsym $mod+g exec --no-startup-id ~/.config/i3/i3_search.sh
 
 # Media player controls
@@ -211,7 +212,7 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
-bindsym $mod+r mode "resize"
+# bindsym $mod+r mode "resize"
 bindsym $mod+n exec i3-input -F 'rename workspace to "%s"' -P 'New name: '
 
 # Start i3bar to display a workspace bar (plus the system information i3status
