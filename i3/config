@@ -58,7 +58,8 @@ workspace 2 output DP1
 exec --no-startup-id /usr/bin/numlockx on
 exec --no-startup-id redshift-gtk
 exec --no-startup-id thunderbird
-exec --no-startup-id pidgin
+exec --no-startup-id slack
+exec --no-startup-id telegram
 exec --no-startup-id pycharm
 
 bindsym $mod+F12 exec firefox
@@ -67,8 +68,10 @@ bindsym Print exec gnome-screenshot --interactive
 for_window [class="Gnome-screenshot"] floating enable
 for_window [class="Pidgin"] floating enable
 
-#for_window [class="Thunderbird"] move workspace 2
-#for_window [class="jetbrains-pycharm"] move workspace 1
+for_window [class="Thunderbird"] move workspace 3
+for_window [class="jetbrains-pycharm"] move workspace 1
+for_window [class="telegram"] move workspace 3
+for_window [class="slack"] move workspace 3
 
 #assign [class="Thunderbird"] → 2
 #assign [class="Pidgin"] → 2
