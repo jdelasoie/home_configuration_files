@@ -83,6 +83,8 @@ for_window [class="slack"] move workspace 3
 
 bindsym $mod+r exec --no-startup-id ~/.config/i3/i3_road.sh
 bindsym $mod+g exec --no-startup-id ~/.config/i3/i3_search.sh
+bindsym $mod+c exec --no-startup-id ~/.config/i3/i3_search_cnrtl.sh
+
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
