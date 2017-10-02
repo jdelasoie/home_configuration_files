@@ -70,7 +70,7 @@ for_window [class="Gnome-screenshot"] floating enable
 for_window [class="Pidgin"] floating enable
 
 for_window [class="Thunderbird"] move workspace 3
-for_window [class="jetbrains-pycharm"] move workspace 1
+#for_window [class="jetbrains-pycharm"] move workspace 1
 for_window [class="telegram"] move workspace 3
 for_window [class="slack"] move workspace 3
 
